@@ -22,9 +22,9 @@ class access_sheet:
             Parametres required to initialize the google sheet access process.
         """
         if SI==None:
-            raise Exception("SAMPLE_SPREADSHEET_ID is missing.")
+            raise Exception("SPREADSHEET_ID is missing.")
         if RN==None:
-            raise Exception("SAMPLE_RANGE_NAME is missing.")
+            raise Exception("RANGE_NAME is missing.")
         self.SPREADSHEET_ID = SI
         self.RANGE_NAME = RN
         self.SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']# If modifying these scopes, delete the file token.pickle.
