@@ -21,9 +21,9 @@ class access_sheet:
         Returns:
             Parametres required to initialize the google sheet access process.
         """
-        if SSI==None:
+        if SI==None:
             raise Exception("SAMPLE_SPREADSHEET_ID is missing.")
-        if SRN==None:
+        if RN==None:
             raise Exception("SAMPLE_RANGE_NAME is missing.")
         self.SPREADSHEET_ID = SI
         self.RANGE_NAME = RN
