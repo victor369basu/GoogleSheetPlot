@@ -9,8 +9,8 @@ import pandas as pd
 
 class access_sheet:
     def __init__(self,
-                 SSI=None,
-                 SRN=None):
+                 SI=None,
+                 RN=None):
         """
         Access the google sheet
         Args:

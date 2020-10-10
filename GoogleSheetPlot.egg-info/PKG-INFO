@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: GoogleSheetPlot
+Version: 0.0.3
+Summary: GoogleSheetPlot is a python package allow the user to select a google sheet from their Google drive and plots a chart with the values on the sheet.
+Home-page: https://github.com/victor369basu/GoogleSheetPlot
+Author: Victor Basu
+Author-email: basu369victor@gmail.com
+License: MIT
+Download-URL: https://github.com/victor369basu/GoogleSheetPlot/archive/master.zip
+Description: # GoogleSheetPlot
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6

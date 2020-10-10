@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+GoogleSheetPlot/Example.ipynb
+GoogleSheetPlot/GoogleSheetPlot.py
+GoogleSheetPlot/__init__.py
+GoogleSheetPlot/application.py
+GoogleSheetPlot/credentials.json
+GoogleSheetPlot/graph.py
+GoogleSheetPlot/token.pickle
+GoogleSheetPlot.egg-info/PKG-INFO
+GoogleSheetPlot.egg-info/SOURCES.txt
+GoogleSheetPlot.egg-info/dependency_links.txt
+GoogleSheetPlot.egg-info/requires.txt
+GoogleSheetPlot.egg-info/top_level.txt
