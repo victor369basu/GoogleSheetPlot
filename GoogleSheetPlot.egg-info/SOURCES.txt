@@ -14,3 +14,8 @@ GoogleSheetPlot.egg-info/SOURCES.txt
 GoogleSheetPlot.egg-info/dependency_links.txt
 GoogleSheetPlot.egg-info/requires.txt
 GoogleSheetPlot.egg-info/top_level.txt
+GoogleSheetPlot/__pycache__/GoogleSheetPlot.cpython-36.pyc
+GoogleSheetPlot/__pycache__/__init__.cpython-36.pyc
+GoogleSheetPlot/__pycache__/application.cpython-36.pyc
+GoogleSheetPlot/__pycache__/graph.cpython-36.pyc
+dist/GoogleSheetPlot-0.0.3.tar.gz
