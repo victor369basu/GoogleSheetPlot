@@ -15,7 +15,7 @@ setuptools.setup(
     version='v0.0.3',
     long_description=README,
     url='https://github.com/victor369basu/GoogleSheetPlot',
-    download_url = "https://github.com/victor369basu/GoogleSheetPlot/archive/master.zip"
+    download_url = "https://github.com/victor369basu/GoogleSheetPlot/archive/master.zip",
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
     install_requires=['requests',
