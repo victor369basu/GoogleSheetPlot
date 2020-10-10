@@ -14,12 +14,12 @@ class access_sheet:
         """
         Access the google sheet
         Args:
-            SI: google Spreadsheet-ID, generated ffrom link of the of the google
+            SI: google Spreadsheet-ID, generated from the link of the google
                 spreadsheet saved in google drive.
             RN: Range Name of the google spreadsheet you want to use. Ex-A1:c100
 
         Returns:
-            Parametres required to initialize the google sheet access process.
+            Parameters required to initialize the google sheet access process.
         """
         if SI==None:
             raise Exception("SPREADSHEET_ID is missing.")

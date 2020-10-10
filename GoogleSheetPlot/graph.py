@@ -6,9 +6,9 @@ class plot_graph:
         plot the necessary graph from the dataframed google sheet.
         Args:
             dataFrame: dataframe to be used for visualization.
-            x: The The dataframe column to be plotted over the x-axis.
-            y: The The dataframe column to be plotted over the y-axis.
-            plot: The category of plot for visualization.
+            x: The dataframe column to be plotted over the x-axis.
+            y: The dataframe column to be plotted over the y-axis.
+            plot: The category of a plot for visualization.
         Returns:
             Initialized parameter for plotting the necessary graph.
         """

@@ -11,9 +11,9 @@ class GoogleSheetPlot:
     def getDataFrame(self, SSI, SRN):
         """
         Args:
-          SI: google Spreadsheet-ID, generated ffrom link of the of the google
+          SI: google Spreadsheet-ID, generated from the link of the google
               spreadsheet saved in google drive.
-          RN: Range Name of the google spreadsheet you want to use. Ex-A1:c100.
+          RN: Range Name of the google spreadsheet you want to use. Ex-A1:c100
         Returns:
            Accessed google sheet in dataframe format.
         """
@@ -25,11 +25,11 @@ class GoogleSheetPlot:
         """
         plot the necessary graph from the dataframed google sheet.
         Args:
-            x: The The dataframe column to be plotted over the x-axis.
-            y: The The dataframe column to be plotted over the y-axis.
-            plot: The category of plot for visualization.
+            x: The dataframe column to be plotted over the x-axis.
+            y: The dataframe column to be plotted over the y-axis.
+            plot: The category of a plot for visualization.
         Reurn:
-           plot the necessary graph and save the graph the the present directory.
+           plot the necessary graph and save the graph the present directory.
         """
         if x==None or x=='':
             raise Exception(" Column-1 is missing.")

@@ -12,7 +12,7 @@ setuptools.setup(
     name='GoogleSheetPlot',
     license="MIT",
     description='GoogleSheetPlot is a python package allow the user to select a google sheet from their Google drive and plots a chart with the values on the sheet.',
-    version='v0.0.01',
+    version='v0.0.02',
     long_description=README,
     url='https://github.com/victor369basu/GoogleSheetPlot',
     download_url = "https://github.com/victor369basu/GoogleSheetPlot/archive/master.zip",
