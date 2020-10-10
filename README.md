@@ -2,7 +2,7 @@
 This library helps a user to select a google sheet from their Google drive and plots a chart with the values on the sheet. The user only needs to select the column for the x-axis and the y-axis.
 <br>
 ## Install
-'''
+''' python
 pip install GoogleSheetPlot
 '''
 ## How to initialize
@@ -14,7 +14,7 @@ Then the user needs to assign the range of the google sheet.
 <br>
 Example - RANGE_NAME = 'A1:C80'
 
-'''
+''' python
 from GoogleSheetPlot import GoogleSheetPlot
 SAMPLE_SPREADSHEET_ID = '1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc'
 SAMPLE_RANGE_NAME = 'A1:C80'
