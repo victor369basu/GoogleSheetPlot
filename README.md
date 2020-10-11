@@ -2,7 +2,7 @@
 This library helps a user to select a google sheet from their Google drive and plots a chart with the values on the sheet. The user only needs to select the column for the x-axis and the y-axis.
 <br>
 ## Install
-```
+``` python
 pip install GoogleSheetPlot
 ```
 ## How to initialize
