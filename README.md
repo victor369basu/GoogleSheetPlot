@@ -14,7 +14,7 @@ Then the user needs to assign the range of the google sheet.
 <br>
 Example - RANGE_NAME = 'A1:C80'
 
-```
+``` python
 from GoogleSheetPlot import GoogleSheetPlot
 SAMPLE_SPREADSHEET_ID = '1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc'
 SAMPLE_RANGE_NAME = 'A1:C80'
@@ -28,7 +28,7 @@ by visiting the page [Turn on the Google Sheets API](https://developers.google.c
 ## Plot the graph
 Just give the valid column names(X and Y axis)with the type of plot you want to get.
 Your plot gets saved with the format "col1_col2_category.png".
-```
+``` python
 gsp.getPlot("average_sales", "offer_price","line")
 ```
 ## Example
