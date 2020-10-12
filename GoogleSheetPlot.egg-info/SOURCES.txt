@@ -4,6 +4,7 @@ setup.cfg
 setup.py
 token.pickle
 Example/Example.ipynb
+Example/average_sales_offer_price_scatter.png
 Example/credentials.json
 GoogleSheetPlot/GoogleSheetPlot.py
 GoogleSheetPlot/__init__.py
