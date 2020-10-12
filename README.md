@@ -25,6 +25,7 @@ here "df" represents the accessed google sheet in dataframe format.
 <br>
 Please download the "credentials.json" file in your working repository by clicking the "Enable Google Sheets API" button
 by visiting the page [Turn on the Google Sheets API](https://developers.google.com/sheets/api/quickstart/python#step_1_turn_on_the).
+<br>
 ## Plot the graph
 Just give the valid column names(X and Y axis)with the type of plot you want to get.
 Your plot gets saved with the format "col1_col2_category.png".
@@ -33,7 +34,7 @@ gsp.getPlot("average_sales", "offer_price","line")
 ```
 ## Example
 Please go through the Example.ipynb file in the Example folder.
-
+![image](Example/average_sales_offer_price_scatter.png?raw=true)
 ## Links
 - GitHub: https://github.com/victor369basu/GoogleSheetPlot
 - PyPI: https://pypi.org/project/GoogleSheetPlot/
