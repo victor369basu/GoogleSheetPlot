@@ -37,4 +37,3 @@ class GoogleSheetPlot:
             raise Exception(" Column-2 is missing.")
         graph = plot_graph(self.df, x, y)
         graph()
-        graph.save()

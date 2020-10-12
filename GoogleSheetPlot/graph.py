@@ -27,6 +27,7 @@ class plot_graph:
     def __call__(self):
         """
         plot the necessary graph.
+        Save the visualized graph in a .png file.
         """
         if self.plot not in self.container:
             raise Exception("Plot category does not exist. Please select among the following: {}".format(self.container))
@@ -40,14 +41,6 @@ class plot_graph:
         plt.xlabel(self.x,fontsize=18)
         plt.ylabel(self.x,fontsize=18)
         plt.title("{}_{}_{}".format(self.x,self.y,self.plot),fontsize=18)
-        self.plt = plt
-        plt.show()
-
-    def save(self):
-        """
-        Save the visualized graph in a .png file.
-        """
-        if self.plt==None:
-            raise Exception("Matplotlib.pyplot not initialized.")
         plt.savefig("{}_{}_{}.png".format(self.x,self.y,self.plot))
         print("Saved Image Successfully.")
+        plt.show()

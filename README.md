@@ -26,6 +26,7 @@ here "df" represents the accessed google sheet in dataframe format.
 Please download the "credentials.json" file in your working repository by clicking the "Enable Google Sheets API" button
 by visiting the page [Turn on the Google Sheets API](https://developers.google.com/sheets/api/quickstart/python#step_1_turn_on_the).
 <br>
+If a tab arises saying "This app isn't verified". Click on "Advanced" option on left-hand corner, and select "Go to Quickstart (unsafe)". Now click on "Allow" and approve the application.
 ## Plot the graph
 Just give the valid column names(X and Y axis)with the type of plot you want to get.
 Your plot gets saved with the format "col1_col2_category.png".

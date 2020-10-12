@@ -1,12 +1,12 @@
 Metadata-Version: 1.2
 Name: GoogleSheetPlot
-Version: 0.0.7
+Version: 0.0.9
 Summary: GoogleSheetPlot is a python package allow the user to select a google sheet from their Google drive and plots a chart with the values on the sheet.
 Home-page: https://github.com/victor369basu/GoogleSheetPlot
 Author: Victor Basu
 Author-email: basu369victor@gmail.com
 License: MIT
-Download-URL: https://github.com/victor369basu/GoogleSheetPlot/tree/master/dist/GoogleSheetPlot-0.0.7.tar.gz
+Download-URL: https://github.com/victor369basu/GoogleSheetPlot/tree/master/dist/GoogleSheetPlot-0.0.9.tar.gz
 Description: # GoogleSheetPlot
         This library helps a user to select a google sheet from their Google drive and plots a chart with the values on the sheet. The user only needs to select the column for the x-axis and the y-axis.
         <br>
@@ -35,6 +35,7 @@ Description: # GoogleSheetPlot
         Please download the "credentials.json" file in your working repository by clicking the "Enable Google Sheets API" button
         by visiting the page [Turn on the Google Sheets API](https://developers.google.com/sheets/api/quickstart/python#step_1_turn_on_the).
         <br>
+        If a tab arises saying "This app isn't verified". Click on "Advanced" option on left-hand corner, and select "Go to Quickstart (unsafe)". Now click on "Allow" and approve the application.
         ## Plot the graph
         Just give the valid column names(X and Y axis)with the type of plot you want to get.
         Your plot gets saved with the format "col1_col2_category.png".
