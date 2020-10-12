@@ -2,13 +2,13 @@ LICENSE.txt
 README.md
 setup.cfg
 setup.py
-GoogleSheetPlot/Example.ipynb
+token.pickle
+Example/Example.ipynb
+Example/credentials.json
 GoogleSheetPlot/GoogleSheetPlot.py
 GoogleSheetPlot/__init__.py
 GoogleSheetPlot/application.py
-GoogleSheetPlot/credentials.json
 GoogleSheetPlot/graph.py
-GoogleSheetPlot/token.pickle
 GoogleSheetPlot.egg-info/PKG-INFO
 GoogleSheetPlot.egg-info/SOURCES.txt
 GoogleSheetPlot.egg-info/dependency_links.txt
